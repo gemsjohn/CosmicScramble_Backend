@@ -1,0 +1,52 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=development node server.js",
+    "start:prod": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "Riley 5",
+  "license": "ISC",
+  "engines": {
+    "node": "18.x",
+    "npm": "8.x"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.3",
+    "ajv": "^8.11.0",
+    "apollo-server": "^3.10.2",
+    "apollo-server-core": "^3.7.0",
+    "apollo-server-errors": "^3.3.1",
+    "apollo-server-express": "^3.7.0",
+    "axios": "^1.2.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "es6-promisify": "^7.0.0",
+    "express": "^4.18.1",
+    "form-data": "^4.0.0",
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "graphql": "^15.5.0",
+    "graphql-middleware": "^6.1.32",
+    "graphql-shield": "^7.5.0",
+    "imagekit": "^3.2.5",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^5.9.10",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "openai": "^3.1.0",
+    "randombytes": "^2.1.0",
+    "sequelize": "^6.25.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
